@@ -1,0 +1,9 @@
+shared:
+  client_id: '81527cff06843c8634fdc09e8ac0abefb46ac849f38fe1e431c2ef2106796384'
+  client_secret: 'c7257eb71a564034f9419ee651c7d0e5f7aa6bfbd18bafb5c5c033b093bb2fa3'
+  base_uri: 'https://owner-api.vn.cloud.tesla.cn'
+  sso_uri: 'https://auth.tesla.cn'
+  refresh_token: 'YOUR_REFRESH_TOKEN_HERE'
+  user_agent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1'
+  api_timeout: 5
+  user: 'YOUR_HTTP_USER_NAME_HERE, FOR SIMPLE AUTH'
