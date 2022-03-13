@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Deploy a tesla http api endpoint using timdorr/tesla-api.
 
-Things you may want to cover:
+Features:
+* docker-based
+* basic auth by url parameter 'user'
+* only using refresh-token to call tesla api, refreshing access-token automatically
 
-* Ruby version
+Current Functionality:
+* open frunk
+* open trunk
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+That's enough for me, when using siri to invoke commands.
