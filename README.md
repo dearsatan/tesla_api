@@ -10,5 +10,7 @@ Features:
 Current Functionality:
 * open frunk
 * open trunk
+* lock
+* unlock
 
 That's enough for me, when using siri to invoke commands.

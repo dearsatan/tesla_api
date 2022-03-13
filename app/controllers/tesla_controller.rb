@@ -14,6 +14,15 @@ class TeslaController < ApplicationController
     render :json => MyTeslaApi.instance.open_rear
   end
 
+  def door_lock
+    render :json => MyTeslaApi.instance.door_lock
+  end
+
+  def door_unlock
+    render :json => MyTeslaApi.instance.door_unlock
+  end
+
+
   def renew_token
     MyTeslaApi.instance.renew_token
   end

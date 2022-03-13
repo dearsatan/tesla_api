@@ -47,5 +47,17 @@ class MyTeslaApi
     state
   end
 
+  def door_lock
+    state = @car.door_lock
+    Rails.logger.info JSON.pretty_generate(state)
+    state
+  end
+
+  def door_unlock
+    state = @car.door_unlock
+    Rails.logger.info JSON.pretty_generate(state)
+    state
+  end
+
 end
 
