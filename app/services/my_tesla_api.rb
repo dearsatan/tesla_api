@@ -1,5 +1,4 @@
 require 'tesla_api'
-require 'json'
 require 'singleton'
 
 class MyTeslaApi
@@ -29,35 +28,10 @@ class MyTeslaApi
     end
   end
 
-  def vehicle_state
-    state = @car.vehicle_state                                                                                                              
-    Rails.logger.info JSON.pretty_generate(state)
+  def vehicle(cmd)
+    state = @car.public_send(cmd)
+    Rails.logger.info state
     state
   end
-
-  def open_front
-    state = @car.open_frunk
-    Rails.logger.info JSON.pretty_generate(state)
-    state
-  end
-
-  def open_rear
-    state = @car.open_trunk
-    Rails.logger.info JSON.pretty_generate(state)
-    state
-  end
-
-  def door_lock
-    state = @car.door_lock
-    Rails.logger.info JSON.pretty_generate(state)
-    state
-  end
-
-  def door_unlock
-    state = @car.door_unlock
-    Rails.logger.info JSON.pretty_generate(state)
-    state
-  end
-
 end
 
