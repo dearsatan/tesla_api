@@ -36,7 +36,7 @@ class MyTeslaApi
   end
 
   def open_front
-    state = @car.open_fronk
+    state = @car.open_frunk
     Rails.logger.info JSON.pretty_generate(state)
     state
   end
