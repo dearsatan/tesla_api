@@ -10,3 +10,4 @@ Features:
 Current Functionality:
 * vehicle related actions: open_frunk, open_trunk, door_lock, door_unlock, etc
 
+If you have deployed teslamate, you can use teslamateapi and that's better.
